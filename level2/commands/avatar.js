@@ -2,6 +2,9 @@ const Discord = require('discord.js')
 const client = new Discord.Client
 
 module.exports.run = async (bot, message, args) => {
+	//the module.exports.run is the starting part that runs the code when the command name is issued
+	
+	
 message.react("✔️")
 
  
@@ -54,3 +57,4 @@ module.exports.help = {
 name: "avatar",
 aliases: ["userimage", "profilepic"]
 }
+// literally the command name so yeah lol
